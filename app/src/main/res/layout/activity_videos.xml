@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".VideosActivity"
+    android:orientation="vertical"
+    android:background="#E3FDFD">
+
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Theme.AppCompat.Light"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/Theme.AppCompat.Light"
+            android:background="@color/blue"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ChemDroid"
+                    style="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@color/black"
+
+                    />
+
+
+            </LinearLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Video Tutorials"
+                android:paddingLeft="15dp"
+                android:textSize="24sp"
+                android:padding="10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+            
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="Rd4a1X3B61w"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        app:showYouTubeButton="false"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/title"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Introduction to chemistry | Atoms, compounds, and ions | Chemistry | Khan Academy"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_below="@+id/youtube_player_view1"/>
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="IFKnq9QM6_A"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        app:showYouTubeButton="false"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView1"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Elements and atoms | Atoms, compounds, and ions | Chemistry | Khan Academy"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_below="@+id/youtube_player_view2"/>
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="1xSQlwWGT8M"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        app:showYouTubeButton="false"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView2"/>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Introduction to the atom | Chemistry of life | Biology | Khan Academy"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_below="@+id/youtube_player_view3"/>
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="yBrp8uvNAhI"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        app:showYouTubeButton="false"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView3"/>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Orbitals | Electronic structure of atoms | Chemistry | Khan Academy"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_below="@+id/youtube_player_view4"/>
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="FmQoSenbtnU"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        app:showYouTubeButton="false"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView4"/>
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="More on orbitals and electron configuration | Chemistry | Khan Academy"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_below="@+id/youtube_player_view5"/>
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="RJlEH5Jz80w"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        app:showYouTubeButton="false"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView5"/>
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Electron Configurations"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_below="@+id/youtube_player_view6"/>
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="YURReI6OJsg"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        app:showYouTubeButton="false"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView6"/>
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Electron configurations 2 | Electronic structure of atoms | Chemistry | Khan Academy"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_below="@+id/youtube_player_view7"/>
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="XWPheDUdMzI"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        app:showYouTubeButton="false"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView7"/>
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Noble gas configuration (old, low volume)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_below="@+id/youtube_player_view8"/>
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="1TZA171yxY4"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        app:showYouTubeButton="false"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView8"/>
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Valence Electrons"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_below="@+id/youtube_player_view9"/>
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="LDHg7Vgzses"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        app:showYouTubeButton="false"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView9"/>
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Groups of the Periodic Table"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_below="@+id/youtube_player_view10"/>
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="ywqg9PorTAw"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        app:showYouTubeButton="false"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView10"/>
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Periodic Table Trends: Ionization Energy"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_below="@+id/youtube_player_view11"/>
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="XMLd-O6PgVs"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        app:showYouTubeButton="false"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView11"/>
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Other Periodic Table Trends"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_below="@+id/youtube_player_view12"/>
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="CGA8sRwqIFg"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        app:showYouTubeButton="false"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView12"/>
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Ionic, covalent, and metallic bonds | Chemical bonds | Chemistry | Khan Academy"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_below="@+id/youtube_player_view13"/>
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="gfBcM3uvWfs"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        app:showYouTubeButton="false"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView13"/>
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Molecular and Empirical Formulas"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_below="@+id/youtube_player_view14"/>
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="AsqEkF7hcII"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        app:showYouTubeButton="false"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView14"/>
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="The mole and Avogadro's number | Atoms, compounds, and ions | Chemistry | Khan Academy"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_below="@+id/youtube_player_view15"/>
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="xatVrAh2U0E"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        app:showYouTubeButton="false"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView15"/>
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Formula from Mass Composition"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_below="@+id/youtube_player_view16"/>
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="sXOIIEZh6qg"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        app:showYouTubeButton="false"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView16"/>
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Another mass composition problem | Chemistry | Khan Academy"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_below="@+id/youtube_player_view17"/>
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="RnGu3xO2h74"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        app:showYouTubeButton="false"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView17"/>
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Balancing Chemical Equations"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_below="@+id/youtube_player_view18"/>
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="SjQG3rKSZUQ"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        app:showYouTubeButton="false"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView18"/>
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Stoichiometry | Chemical reactions and stoichiometry | Chemistry | Khan Academy"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_below="@+id/youtube_player_view19"/>
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="rESzyhPOJ7I"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        app:showYouTubeButton="false"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView19"/>
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Stoichiometry: Limiting reagent | Chemical reactions and stoichiometry | Chemistry | Khan Academy"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_below="@+id/youtube_player_view20"/>
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>

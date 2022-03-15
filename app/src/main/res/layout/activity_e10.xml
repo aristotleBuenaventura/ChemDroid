@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".E10Activity"
+    android:background="#E3FDFD">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Exercise 10"
+                android:textSize="25dp"
+                android:padding="20dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                />
+
+            <TextView
+                android:id="@id/content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:lineSpacingExtra="5sp"
+                android:padding="20dp"
+                android:text="@string/content_E10" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

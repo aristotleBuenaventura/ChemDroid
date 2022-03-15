@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3FDFD">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Phases and Classification of Matter"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textSize="24sp" />
+
+
+
+        <GridLayout
+            android:layout_width="382dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="50">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/flip_btn"
+                android:layout_width="365dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="#E3FDFD"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp">
+
+
+
+                <TextView
+                    android:id="@+id/card_front"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/p1"
+                    android:background="@color/blue"
+                    android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/card_back"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0"
+                    android:text="@string/p_1"
+                    android:background="@color/green"
+                    android:textSize="15sp" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/flip_bt1"
+                android:layout_width="365dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="#E3FDFD"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp">
+
+
+
+                <TextView
+                    android:id="@+id/card_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/p2"
+                    android:background="@color/blue"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/card_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0"
+                    android:text="@string/p_2"
+                    android:background="@color/green"
+                    android:textSize="15sp" />
+
+
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/flip_bt2"
+                android:layout_width="365dp"
+                android:layout_height="150dp"
+                app:cardBackgroundColor="#E3FDFD"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp">
+
+
+                <TextView
+                    android:id="@+id/card_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/blue"
+
+                    android:text="@string/p3"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/card_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0"
+                    android:text="@string/p_3"
+                    android:background="@color/green"
+                    android:textSize="15sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/flip_bt3"
+                android:layout_width="365dp"
+                android:layout_height="150dp"
+                app:cardBackgroundColor="#E3FDFD"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp">
+
+
+                <TextView
+                    android:id="@+id/card_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/blue"
+
+                    android:text="@string/p4"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/card_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0"
+                    android:text="@string/p_4"
+                    android:background="@color/green"
+
+                    android:textSize="15sp" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/flip_bt4"
+                android:layout_width="365dp"
+                android:layout_height="150dp"
+                app:cardBackgroundColor="#E3FDFD"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp">
+
+
+                <TextView
+                    android:id="@+id/card_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/blue"
+
+                    android:text="@string/p5"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/card_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0"
+                    android:text="@string/p_5"
+                    android:background="@color/green"
+
+                    android:textSize="15sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/flip_bt5"
+                android:layout_width="365dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="#E3FDFD"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp">
+
+
+                <TextView
+                    android:id="@+id/card_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/blue"
+
+                    android:text="@string/p6"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/card_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0"
+                    android:text="@string/p_6"
+                    android:background="@color/green"
+
+                    android:textSize="15sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/flip_bt6"
+                android:layout_width="365dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="12dp"
+                app:cardBackgroundColor="#E3FDFD"
+                app:cardElevation="5dp">
+
+
+                <TextView
+                    android:id="@+id/card_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/blue"
+
+                    android:text="@string/p7"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/card_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0"
+                    android:text="@string/p_7"
+                    android:background="@color/green"
+
+                    android:textSize="15sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/flip_bt7"
+                android:layout_width="365dp"
+                android:layout_height="160dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="#E3FDFD"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp">
+
+
+                <TextView
+                    android:id="@+id/card_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/blue"
+
+                    android:text="@string/p8"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/card_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0"
+                    android:text="@string/p_8"
+                    android:background="@color/green"
+
+                    android:textSize="15sp" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/flip_bt8"
+                android:layout_width="365dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="#E3FDFD"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp">
+
+
+                <TextView
+                    android:id="@+id/card_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/blue"
+
+                    android:text="@string/p9"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/card_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0"
+                    android:text="@string/p_9"
+                    android:background="@color/green"
+
+                    android:textSize="15sp" />
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
